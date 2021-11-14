@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Vicious cycles" content="membership signup">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Vicious cycles project WEB140</title>
+</head>
+<body>
+    <div class="top">
+        <header>
+            <img src="image/Vicious-Cycle-Logo.png" alt="logo">
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Bike Customization</a></li>
+                <li><a href="#">Trade Shows</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div> 
+<section>
+    <div id="membership">
+            <h1>Interested in becoming a member with us?</h1>
+            <h2>Fill out the following required information so that you can be involved with the Vicious Cycle's family!</h2>
+            <form action="#" method="post" name="createmembership">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+                
+
+                <h3>What are you interested in knowing more about? (Select all that apply)</h3>
+                <input type="checkbox" id="purchase" name="purchase" value="buy motorcycle">
+                <label for="purchase">Motorcycle Purchases</label><br>
+                <input type="checkbox" id="acc" name="acc" value="buy accessories">
+                <label for="acc">Motorcycle Accessories</label><br>
+                <input type="checkbox" id="cust" name="cust" value="customization">
+                <label for="cust">Motorcycle Customization</label><br>
+                <input type="checkbox" id="show" name="show" value="trade shows">
+                <label for="show">Trade Shows</label><br>
+
+                <h3>What is your experience level?</h3>
+                <input type="radio" id="entry" name="experience" value="beginner experience">
+                <label for="entry">Beginner</label><br>
+                <input type="radio" id="med" name="experience" value="intermediate experience">
+                <label for="med">Intermediate</label><br>
+                <input type="radio" id="skilled" name="experience" value="Expert experience">
+                <label for="skilled">Expert</label><br>
+
+                <br><label for="findus">How did you hear about us?</label>
+                <select name="findus" id="findus">
+                    <option value="online">Online</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="friend">Friend</option>
+                    <option value="family">Family</option>
+                    <option value="ad">Advertisement</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+
+                <label for="questions">Do you have any questions or comments for us?</label><br>
+                <textarea id="questions" name="questions" rows="4" cols="50" placeholder="Please let us know how we can help you further here:"></textarea><br><br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+            <a href="index.html" title="back to home page">Click here to go back to the Home Page</a>
+    </div>
+</section>
+</body>
+</html>
